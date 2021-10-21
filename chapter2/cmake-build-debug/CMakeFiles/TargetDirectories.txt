@@ -1,0 +1,4 @@
+D:/project/C/csapp/chapter2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/project/C/csapp/chapter2/cmake-build-debug/CMakeFiles/endian.c.dir
+D:/project/C/csapp/chapter2/cmake-build-debug/CMakeFiles/inplace_swap.c.dir
+D:/project/C/csapp/chapter2/cmake-build-debug/CMakeFiles/edit_cache.dir

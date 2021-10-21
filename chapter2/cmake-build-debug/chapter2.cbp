@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chapter2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/project/C/csapp/chapter2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/project/C/csapp/chapter2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="endian.c">
+				<Option output="D:/project/C/csapp/chapter2/cmake-build-debug/endian.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/C/csapp/chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 endian.c"/>
+					<CompileFile command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="endian.c/fast">
+				<Option output="D:/project/C/csapp/chapter2/cmake-build-debug/endian.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/C/csapp/chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 endian.c/fast"/>
+					<CompileFile command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inplace_swap.c">
+				<Option output="D:/project/C/csapp/chapter2/cmake-build-debug/inplace_swap.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/C/csapp/chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 inplace_swap.c"/>
+					<CompileFile command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inplace_swap.c/fast">
+				<Option output="D:/project/C/csapp/chapter2/cmake-build-debug/inplace_swap.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/C/csapp/chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/soft/ide/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 inplace_swap.c/fast"/>
+					<CompileFile command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/project/C/csapp/chapter2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/ide/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C/csapp/chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/project/C/csapp/chapter2/endian.c">
+			<Option target="endian.c"/>
+		</Unit>
+		<Unit filename="D:/project/C/csapp/chapter2/inplace_swap.c">
+			<Option target="endian.c"/>
+			<Option target="inplace_swap.c"/>
+		</Unit>
+		<Unit filename="D:/project/C/csapp/chapter2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
